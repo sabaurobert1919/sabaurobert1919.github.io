@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4c3; /* Light green background */
+}
+
+header {
+    background-color: #558b2f; /* Dark green header */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 3px solid #33691e;
+}
+
+h1, h2 {
+    color: #33691e; /* Dark green titles */
+    margin-bottom: 0.5rem;
+}
+
+section {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #dcedc8; /* Light green header for tables */
+    color: #33691e; /* Dark green text */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: opacity 0.5s;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+#resource-monitoring .slideshow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+#resource-monitoring img {
+    flex: 1 1 calc(33% - 1rem);
+    max-width: 30%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+#resource-monitoring img:hover {
+    transform: scale(1.05);
+}
+
+/* Add styles for slideshow active state */
+.slideshow-active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
